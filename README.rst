@@ -3,17 +3,13 @@ extrabuiltins
 
 Simple package that gives ability to extend __builtin__ temporarily.
 
-
-Usage
------
-
-    Usage::
-      >>> from extrabuiltins import extrabuiltins
-      >>>
-      >>> with extrabuiltins({'hello': lambda : "Hello!"}):
-      >>>     print hello()  # hello available as builtin
-      >>>
-      >>> hello!
+Usage::
+   >>> from extrabuiltins import extrabuiltins
+   >>>
+   >>> with extrabuiltins({'hello': lambda : "Hello!"}):
+   >>>     print hello()  # hello available as builtin
+   >>>
+   >>> hello!
 
 
 Installation
