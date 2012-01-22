@@ -1,9 +1,9 @@
 extrabuiltins
 *************
 
-  Simple package that gives ability to extend __builtin__ temporarily.
+Simple package that gives ability to extend __builtin__ temporarily.
 
-  Usage::
+Usage::
     >>> from extrabuiltins import extrabuiltins
     >>>
     >>> with extrabuiltins({'hello': lambda : "Hello!"}):
